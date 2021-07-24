@@ -6,11 +6,10 @@
 >
 > 가까운 데이터들의 종류가 무엇인지 확인하여 새로운 데이터의 종류를 판별하는 알고리즘입니다.
 
-### 직접 작성한 KNN 분류 알고리즘을 가지고 유명한 위스콘신 유방암 데이터로 분류 실습
-### 기존 KNN과 다른점은?
-* 유클리디안 거리 뿐만 아니라 맨해튼 거리계산 방식도 사용가능
+### 직접 작성한 KNN 분류 알고리즘으로 iris 데이터 분류
+* 사이키런 KNN과 성능 비교
 
-|거리계산|결과|
+|my_knn|사이키런|
 |:--:|:--:|
-|유클리디안|![image](https://user-images.githubusercontent.com/72850237/126509449-0728c6fc-8e2f-4497-a8e7-91df597df961.png)<br>정확도 96%, 오분류 2개|
-|맨해튼|![image](https://user-images.githubusercontent.com/72850237/126510160-1da93110-8971-4382-b594-119c731eb22a.png)<br>정확도 100%, 오분류 0개|
+|![image](https://user-images.githubusercontent.com/72850237/126862307-a5088f48-d1de-45bb-8924-9e659751bc70.png)|![image](https://user-images.githubusercontent.com/72850237/126862315-e8964844-60ce-47b4-b54c-7ced09f56d2b.png)|
+
